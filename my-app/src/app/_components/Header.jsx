@@ -33,7 +33,7 @@ function Header() {
       SARAMI IMMO
     </div>
     <nav className="flex-1 text-right">
-      <a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="text-sm mx-4 hover:underline">
+      <a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="text-sm mx-4 hover:underline hover:text-primary">
         About Us
       </a>
       <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="text-sm mx-4 hover:underline">
